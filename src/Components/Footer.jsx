@@ -1,10 +1,11 @@
 import React from 'react'
+import "./Footer.css"
 
 const Footer = () => {
     return (
-        <div>
+        <div className='footer'>
             <p>(84)991392086</p>
-            <p>EMAIL </p>
+            <p>flavialuizfds@gmail.com</p>
         </div>
     )
 }

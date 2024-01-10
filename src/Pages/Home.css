@@ -1,0 +1,31 @@
+.home{
+    background-color: var(--verde-principal);
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.principal{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.foto-PSIFlavia{
+    width: 600px;
+    height: 600px;
+}
+
+.informacoes{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+.nome{
+    margin-bottom: 8px;
+}
