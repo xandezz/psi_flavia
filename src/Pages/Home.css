@@ -1,31 +1,47 @@
 .home{
     background-color: var(--verde-principal);
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .principal{
-    width: 60%;
+    width: 100%;
+    padding-left: 20%;
     display: flex;
     align-items: center;
+
 }
 
 .foto-PSIFlavia{
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
 }
-
-.informacoes{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-
 
 .nome{
     margin-bottom: 8px;
+}
+
+.faixa-1{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding: 25px 0;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+.pergunta-tcc{
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 15%;
+}
+
+.pergunta-tcc p{
+    margin-top: 20px;
 }

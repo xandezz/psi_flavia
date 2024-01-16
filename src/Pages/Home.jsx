@@ -6,15 +6,21 @@ const Home = () => {
     <div className='home'>
       <div className='principal'>
         <img className="foto-PSIFlavia" src="foto-PSIFlávia.jpeg" alt="Foto da psicologa Flávia Luiza" />
-        <div className='informacoes'>
+        <div>
           <span></span>
           <div>
-            <h1 className='nome'>Psicologa Flávia Luiza</h1>
+            <h1 className='nome'>Flávia Luiza</h1>
             <p className='crp'>CRP 17/7097</p>
           </div>
-          <h3 className='descricao'>Formada em psicologia em 2022, tenho como base a TCC, estou fazendo pós na abordagem, tenho uma bagagem de experiência na área da psicoterapia! Ajudo adolescente e adultos com suas ansiedades, anseios, medos e tudo o que acaba tirando a paz!</h3>
+          <h2 className='descricao'>Psicóloga com atuação em terapia cognitiva comportamental(TCC)</h2>
         </div>
       </div>
+      <p className='faixa-1'>Atendimento para adolescentes e adultos consultas online</p>
+      <div className='pergunta-tcc'>
+        <h3 >Como a TCC pode te ajudar?</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, neque!</p>
+      </div>
+
     </div>
   )
 }
