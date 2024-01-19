@@ -1,0 +1,21 @@
+.pergunta{
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.texto-explicativo{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #000 solid 1px;
+    box-shadow: 3px 3px 3px;
+    color: #000;
+}
+
+.servicos{
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 0;
+
+}

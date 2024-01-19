@@ -5,11 +5,14 @@ const Carrossel = () => {
   return (
     <div className='carousel'>
         <div className="item">
+          <div className="titulo">
+            
+          </div>
+          <div className="descricao">
 
+          </div>
         </div>
-        <div className="descricao">
-
-        </div>
+        
     </div>
   )
 }

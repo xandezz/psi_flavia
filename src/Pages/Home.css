@@ -1,11 +1,12 @@
 .home{
     background-color: var(--verde-principal);
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .principal{
@@ -35,22 +36,25 @@
     margin-top: 40px;
     padding: 25px 0;
     font-size: 30px;
-    font-weight: bold; 
-}
-
-.pergunta-tcc{
-    padding-top: 50px;
-    padding-left: 25%;
-    padding-right: 25%;
+    font-weight: bold;
+    opacity: 0.8;
 }
 
 
 
-.texto-explicativo{
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    border: #000 solid 1px;
-    box-shadow: 3px 3px 3px;
-    color: #000;
+
+@media (min-width:1000px) and (max-width:1280px) {
+    .principal{
+        padding: 20px;
+        width: 100%;
+        padding-left:15%;
+        display: flex;
+        align-items: center;
+        background-image: url("cimento-queimado.jpg");
+    }
+
+    .foto-PSIFlavia{
+        width: 150px;
+        height: 100px;
+    }
 }
