@@ -1,21 +1,42 @@
+.titulo-topico{
+    text-align: center;
+    font-size: 45px;
+
+
+
+    
+    border-bottom:#000 solid 3px  ;
+
+
+
+    font-weight: bold;
+    width: 70%;
+    align-self: center;
+}
+
 .pergunta{
     padding-top: 50px;
     padding-left: 25%;
     padding-right: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto-explicativo{
     margin-top: 20px;
     padding: 10px;
-    border-radius: 10px;
-    border: #000 solid 1px;
-    box-shadow: 3px 3px 3px;
+    border-radius: 15px;
+    border: #000 solid 2px;
+    box-shadow: 8px 8px 8px;
     color: #000;
 }
 
 .servicos{
     padding-top: 50px;
-    padding-left: 25%;
-    padding-right: 0;
-
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
