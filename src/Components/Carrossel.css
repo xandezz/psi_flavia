@@ -1,35 +1,129 @@
-.carrossel{
+.carrossel-card {
+    margin-top: 40px;
+    align-self: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #a34c0e;
+    width: 100%;
+}
+
+.carrossel-caixaDePergunta {
     margin-top: 40px;
     align-self: center;
     border-radius: 10px;
     padding: 50px;
-    width: 45%;
-    display: flex ;
+    display: flex;
     flex-direction: column;
-    
 }
 
-.conteudo-carrossel{
+
+.container-carrossel-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 1056px;
+}
+
+.container-carrossel-duvidas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 1000px;
+}
+
+.conteudo-carrossel {
     display: flex;
     overflow-x: auto;
-    scroll-behavior:smooth;
-    margin-top: 20px;
+    scroll-behavior: smooth;
 }
 
-.conteudo-carrossel::-webkit-scrollbar{
+.conteudo-carrossel::-webkit-scrollbar {
     display: none;
 }
 
-.buttons button{
+.buttons-carrossel {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    outline-style: none;
+    height: 100%;
 }
 
-.buttons button:first-child img{
+.seta{
+    width: 50px;
+}
+
+.seta:hover {
+    opacity: 0.7;
+    transition: 500ms;
+}
+
+
+.seta-esquerda{
     transform: rotate(180deg);
 }
 
-.buttons{
-    align-self: center;
+button {
+    outline: none !important;
+}
+
+.container-buttons-direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.container-buttons-esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.folhas-direita{
+    margin-top: 25px;
+    width: 130px;
+    height: 130px;
+    transform: rotate(180deg);
+}
+.folhas-esquerda{
+    margin-bottom: 25px;
+    width: 130px;
+    height: 130px;
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .carrossel-card {
+        margin-top: 15px;
+        padding: 10px;   
+    }
+
+    
+
+    
+
+    .container-carrossel-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 740px;
+        overflow: hidden;
+    }
+
+    .container-carrossel-duvidas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width:800px;
+    }
+
+    .buttons-carrossel {
+        visibility: hidden;
+    }
 }

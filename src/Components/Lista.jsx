@@ -5,7 +5,7 @@ const Lista = ({lista}) => {
   return (
     <ul className='lista'>
         {lista.map((item) => (
-            <li className='item'>{item}</li>
+            <li key= {item.id}className='item'>{item.servico}</li>
           ))}
     </ul>
   )

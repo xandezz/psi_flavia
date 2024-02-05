@@ -1,17 +1,22 @@
 :root{
   --verde-principal: #e2f0cc;
-  --verde-secundario: #97b670;
+  --marrom: #a34c0e;
+  --cinza: #bcccc2;
+  --rosinha: #c57456;
+  --amarelo: #ecc071;
+  --branco: #ffffff;
 }
 
 *{
   padding: 0;
   margin: 0;
-  color: var(--verde-secundario);
-    
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
 body{
   overflow-x: hidden;
+  font-size: 18px;
 }
 
 button:focus{

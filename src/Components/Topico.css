@@ -1,36 +1,68 @@
 .titulo-topico{
     text-align: center;
     font-size: 45px;
-
-
-
-    
-    border-bottom:#000 solid 3px  ;
-
-
-
     font-weight: bold;
-    width: 70%;
+    width: 100%;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--marrom);
+    padding: 40px;
+    background-image: url("tarja.png");
+    background-size: contain;   
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.pergunta{
-    padding-top: 50px;
-    padding-left: 25%;
-    padding-right: 25%;
+.titulo-topico::before {
+    content: ""; /* Remova o "url" para usar o conteúdo gerado pelo CSS */
+    background-image: url("estrela.png");
+    background-size: 30px 30px; /* Ajuste o tamanho conforme necessário */
+    display: inline-block; /* Permite ajustar o tamanho com width e height */
+    width: 30px; /* Defina a largura desejada */
+    height: 30px; /* Defina a altura desejada */
+    margin-right: 20px; /* Adicione margem à direita, se necessário */
+}
+
+.topico{
+    padding: 50px 20% 0 20% ;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.topico-quemSouEu{
+    padding: 15px;
+}
+
+.topico-TCC{
+    padding: 60px;
+}
+
+.topico-questoesTrabalhadas{
+    padding: 50px;
 }
 
 .texto-explicativo{
     margin-top: 20px;
     padding: 10px;
     border-radius: 15px;
-    border: #000 solid 2px;
-    box-shadow: 8px 8px 8px;
-    color: #000;
+    text-align: justify;
 }
+
+.texto-QuemSouEu{
+    padding-top: 50px;
+    background-image: url('linhas-quemSouEu.png');
+    background-size: contain;   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.texto-TCC p{
+    margin-bottom: 10px;
+}
+
 
 .servicos{
     padding-top: 50px;
@@ -38,5 +70,92 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.foto-psiflavia{
+    width: 450px;
+    height: 500px;
+    margin-right:50px ;
+}
+
+.container-QuemSouEu{
+    display: flex;
+}
+
+.quemsoueu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+    .titulo-topico{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .titulo-topico::before {
+        background-size: 15px 15px; 
+        width: 15px; 
+        height: 15px; 
+        margin-right: 5px; 
+    }
+
+    .topico{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .texto-explicativo{
+        font-size: 15px;
+    }
+
+    .foto-psiflavia{
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .container-QuemSouEu{
+        flex-direction: column;
+    }
+    .topico-quemSouEu{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .texto-QuemSouEu{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    .topico-TCC{
+        padding: 18px;
+        font-size: 15px;
+    }
+
+    .topico-questoesTrabalhadas{
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .titulo-servicos{
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .titulo-terapia{
+        padding: 15px;
+        font-size: 20px;
+    }
     
+    .titulo-duvidas{
+        padding: 15px;
+        font-size: 20px;
+    }
 }
