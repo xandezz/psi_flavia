@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "titulo": "Ansiedade",
+        "texto": "A ansiedade é algo natural de nós seres humanos. Porém em excesso se torna preocupante, quando nos incapacita em algumas questões da vida e em alguns casos acaba afetando a maneira como se vive! "
+    },
+    {
+        "id": "2",
+        "titulo": "Luto",
+        "texto": "A morte é um evento inevitável na vida de todos nós e lidar com a perda de um ente querido pode ser uma experiência extremamente difícil. A dor do luto pode ser muito intensa, mas com o tempo, ela tende a diminuir. Por mais que algumas pessoas fiquem presas no luto, entender que o LUTO é algo para se passar, não para estar é essencial!"
+    },
+    {
+        "id": "3",
+        "titulo": "Timidez e Insegurança",
+        "texto": "A morte é um evento inevitável na vida de todos nós e lidar com a perda de um ente querido pode ser uma experiência extremamente difícil. A dor do luto pode ser muito intensa, mas com o tempo, ela tende a diminuir. Por mais que algumas pessoas fiquem presas no luto, entender que o LUTO é algo para se passar, não para estar é essencial!"
+    },
+    {
+        "id": "4",
+        "titulo": "Relacionamentos",
+        "texto": "Desafios como problemas de comunicação, conflitos frequentes e a ausência de intimidade ou confiança podem afetar significativamente os laços interpessoais, seja no âmbito conjugal ou familiar. Esses obstáculos demandam atenção e esforço para fortalecer os vínculos e promover relações saudáveis."
+    },
+    {
+        "id": "5",
+        "titulo": "Ataques de Pânico",
+        "texto": "Crises de ansiedade, medo, traumas, sentimento de culpa, são reações do corpo em relação a um evento que aconteceu, ou a angústia do que irá acontecer! O ataque de pânico acontece de repente, nos deixam incapacitantes e paralisa, nos fazendo evitar situações necessárias para que não traga desconforto."
+    }
+] 

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "titulo": "Quanto tempo dura cada sessão?",
+        "texto": "Cada sessão dura exatamente 50 minutos!"
+    },
+    {
+        "id": "2",
+        "titulo": "Quanto tempo dura o tratamento psicológico?",
+        "texto": "A duração do tratamento psicoterápico varia conforme o paciente e seus problemas. Não é possível prever o tempo exato para resultados. Quando a alta se torna viável, as sessões reduzem gradualmente até o encerramento da terapia."
+    },
+    {
+        "id": "3",
+        "titulo": "Qual o valor da sessão?",
+        "texto": "Os custos relacionados à psicoterapia serão discutidos e definidos antes do início do tratamento, em uma conversa direta com o profissional responsável. Se precisar de mais informações ou esclarecimentos, sinta-se à vontade para entrar em contato."
+    },
+    {
+        "id": "4",
+        "titulo": "Quais são os benefícios da terapia?",
+        "texto": "A terapia pode ajudar a melhorar o bem-estar emocional, lidar com desafios, promover autoconhecimento e desenvolver estratégias para enfrentar problemas."
+    },
+    {
+        "id": "5",
+        "titulo": "Com que frequência devo ter sessões de terapia?",
+        "texto": "A frequência varia, mas é comum ter sessões semanais inicialmente. Conforme progredir, a frequência pode diminuir."
+    },
+    {
+        "id": "6",
+        "titulo": "Como posso saber se a terapia está funcionando para mim?",
+        "texto": "Observe mudanças positivas em seu bem-estar emocional, relações e habilidades de enfrentamento. Comunique-se abertamente com seu terapeuta sobre seu progresso."
+    }
+] 
