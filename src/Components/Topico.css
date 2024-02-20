@@ -1,4 +1,4 @@
-.titulo-topico{
+.titulo-topico {
     text-align: center;
     font-size: 45px;
     font-weight: bold;
@@ -9,62 +9,61 @@
     align-items: center;
     color: var(--marrom);
     padding: 40px;
-    background-image: url("tarja.png");
-    background-size: contain;   
+    background-image: url("../../public/tarja.png");
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .titulo-topico::before {
-    content: ""; /* Remova o "url" para usar o conteúdo gerado pelo CSS */
-    background-image: url("estrela.png");
-    background-size: 30px 30px; /* Ajuste o tamanho conforme necessário */
-    display: inline-block; /* Permite ajustar o tamanho com width e height */
-    width: 30px; /* Defina a largura desejada */
-    height: 30px; /* Defina a altura desejada */
-    margin-right: 20px; /* Adicione margem à direita, se necessário */
+    content: "";
+    background-image: url("../../public/estrela.png");
+    background-size: 40px 40px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
 }
 
-.topico{
-    padding: 50px 20% 0 20% ;
+.topico {
+    padding: 50px 15% 0px 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.topico-quemSouEu{
+.topico-quemSouEu {
     padding: 15px;
 }
 
-.topico-TCC{
-    padding: 60px;
+.titulo-servicos {
+    padding: 30px;
 }
 
-.topico-questoesTrabalhadas{
+.titulo-terapia {
+    padding: 35px;
+}
+
+.topico-TCC {
+    padding: 53px;
+}
+
+.topico-questoesTrabalhadas {
     padding: 50px;
 }
 
-.texto-explicativo{
+.texto-explicativo {
     margin-top: 20px;
     padding: 10px;
-    border-radius: 15px;
     text-align: justify;
 }
 
-.texto-QuemSouEu{
-    padding-top: 50px;
-    background-image: url('linhas-quemSouEu.png');
-    background-size: contain;   
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.texto-TCC p{
+.texto-TCC p {
     margin-bottom: 10px;
 }
 
 
-.servicos{
+.servicos {
     padding-top: 50px;
     align-self: center;
     display: flex;
@@ -72,90 +71,492 @@
     align-items: center;
 }
 
-.foto-psiflavia{
-    width: 450px;
-    height: 500px;
-    margin-right:50px ;
-}
-
-.container-QuemSouEu{
-    display: flex;
-}
-
-.quemsoueu{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 
-@media (min-width:320px) and (max-width:480px){
-    .titulo-topico{
-        font-size: 20px;
-        padding: 10px;
+
+@media (min-width:270px) and (max-width:359px) {
+
+    .titulo-topico {
+        padding: 0;
     }
 
     .titulo-topico::before {
-        background-size: 15px 15px; 
-        width: 15px; 
-        height: 15px; 
-        margin-right: 5px; 
+        background-size: 15px 15px;
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
     }
 
-    .topico{
+    .topico {
         padding: 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+
     }
 
-    .texto-explicativo{
-        font-size: 15px;
+    .texto-explicativo {
+        font-size: 12px;
     }
 
-    .foto-psiflavia{
+    .foto-psiflavia {
         width: 90px;
         height: 100px;
         margin: 10px;
     }
 
-    .container-QuemSouEu{
-        flex-direction: column;
-    }
-    .topico-quemSouEu{
-        padding: 5px;
-        font-size: 15px;
-    }
-
-    .texto-QuemSouEu{
-        font-size: 15px;
+    .texto-QuemSouEu {
         padding-top: 5px;
     }
 
-    .topico-TCC{
-        padding: 18px;
+    .topico-quemSouEu {
+        padding: 5px 0px;
         font-size: 15px;
     }
 
-    .topico-questoesTrabalhadas{
+    .topico-TCC {
+        padding: 18px 0px;
+        font-size: 14px;
+
+    }
+
+    .topico-questoesTrabalhadas {
+        padding: 18px 0px;
+        font-size: 20px;
+    }
+
+    .titulo-servicos {
+        padding: 14px 0px;
+        font-size: 20px;
+    }
+
+    .titulo-terapia {
+        padding: 15px 0px;
+        font-size: 20px;
+    }
+
+    .titulo-duvidas {
+        padding: 18px 0px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:360px) and (max-width:420px) {
+    .titulo-topico {
+        padding: 0;
+    }
+
+    .titulo-topico::before {
+        background-size: 20px 20px;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .topico {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .texto-explicativo {
+        font-size: 14px;
+    }
+
+    .foto-psiflavia {
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .texto-QuemSouEu {
+        padding-top: 5px;
+    }
+
+    .topico-quemSouEu {
+        padding: 8px 0px;
+        font-size: 20px;
+    }
+
+    .topico-TCC {
+        padding: 18px 0px;
+        font-size: 15px;
+
+    }
+
+    .topico-questoesTrabalhadas {
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+
+    .titulo-servicos {
+        padding: 14px 0px;
+        font-size: 20px;
+    }
+
+    .titulo-terapia {
+        padding: 14px 0px;
+        font-size: 20px;
+    }
+
+    .titulo-duvidas {
+        padding: 17px 0px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:421px) and (max-width:480px) {
+
+
+    .titulo-topico::before {
+        background-size: 15px 15px;
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+
+    .topico {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .texto-explicativo {
+        font-size: 15px;
+    }
+
+    .foto-psiflavia {
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .texto-QuemSouEu {
+        padding-top: 5px;
+    }
+
+    .topico-quemSouEu {
+        padding: 8px;
+        font-size: 25px;
+    }
+
+    .topico-TCC {
         padding: 20px;
+        font-size: 17px;
+    }
+
+    .topico-questoesTrabalhadas {
+        padding: 22px;
+        font-size: 23px;
+    }
+
+    .titulo-servicos {
+        padding: 18px;
+        font-size: 25px;
+    }
+
+    .titulo-terapia {
+        padding: 18px;
+        font-size: 25px;
+    }
+
+    .titulo-duvidas {
+        padding: 18px;
+        font-size: 23px;
+    }
+}
+
+@media (min-width:481px) and (max-width:620px) {
+    .titulo-topico::before {
+        background-size: 15px 15px;
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+
+    .topico {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-explicativo {
         font-size: 15px;
     }
 
-    .titulo-servicos{
+    .foto-psiflavia {
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .texto-QuemSouEu {
+        padding-top: 5px;
+    }
+
+    .topico-quemSouEu {
+        padding: 8px;
+        font-size: 23px;
+    }
+
+    .topico-TCC {
+        padding: 20px;
+        font-size: 17px;
+    }
+
+    .topico-questoesTrabalhadas {
+        padding: 23px;
+        font-size: 25px;
+    }
+
+    .titulo-servicos {
+        padding: 18px;
+        font-size: 25px;
+    }
+
+    .titulo-terapia {
+        padding: 18px;
+        font-size: 25px;
+    }
+
+    .titulo-duvidas {
+        padding: 20px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width:621px) and (max-width:768px) {
+    .titulo-topico::before {
+        background-size: 20px 20px;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .topico {
         padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-explicativo {
+        font-size: 15px;
+    }
+
+    .foto-psiflavia {
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .texto-QuemSouEu {
+        padding-top: 5px;
+    }
+
+    .topico-quemSouEu {
+        padding: 9px;
+        font-size: 25px;
+    }
+
+    .topico-TCC {
+        padding: 20px;
+        font-size: 17px;
+    }
+
+    .topico-questoesTrabalhadas {
+        padding: 23px;
+        font-size: 25px;
+    }
+
+    .titulo-servicos {
+        padding: 18px;
+        font-size: 25px;
+    }
+
+    .titulo-terapia {
+        padding: 18px;
+        font-size: 25px;
+    }
+
+    .titulo-duvidas {
+        padding: 20px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .titulo-topico::before {
+        background-size: 25px 25px;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+    }
+
+    .topico {
+        padding: 30px 50px;
+    }
+
+    .texto-explicativo {
+        font-size: 18px;
+    }
+
+    .foto-psiflavia {
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .texto-QuemSouEu {
+        padding-top: 5px;
+    }
+
+    .topico-quemSouEu {
+        padding: 8px;
+        font-size: 30px;
+    }
+
+    .topico-TCC {
+        padding: 27px;
+        font-size: 22px;
+    }
+
+    .topico-questoesTrabalhadas {
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .titulo-servicos {
+        padding: 23px;
+        font-size: 30px;
+    }
+
+    .titulo-terapia {
+        padding: 23px;
+        font-size: 30px;
+    }
+
+    .titulo-duvidas {
+        padding: 25px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .topico {
+        padding: 30px 50px;
+    }
+
+    .titulo-topico::before {
+        background-size: 30px 30px;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .texto-explicativo {
         font-size: 20px;
     }
 
-    .titulo-terapia{
-        padding: 15px;
+    .foto-psiflavia {
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .texto-QuemSouEu {
+        padding-top: 5px;
+    }
+
+    .topico-quemSouEu {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .topico-TCC {
+        padding: 27px;
+        font-size: 22px;
+    }
+
+    .topico-questoesTrabalhadas {
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .titulo-servicos {
+        padding: 23px;
+        font-size: 30px;
+    }
+
+    .titulo-terapia {
+        padding: 23px;
+        font-size: 30px;
+    }
+
+    .titulo-duvidas {
+        padding: 25px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1650px) {
+    .topico {
+        padding: 30px 50px;
+    }
+
+    .titulo-topico::before {
+        background-size: 30px 30px;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .texto-explicativo {
         font-size: 20px;
     }
-    
-    .titulo-duvidas{
-        padding: 15px;
-        font-size: 20px;
+
+    .foto-psiflavia {
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .texto-QuemSouEu {
+        padding-top: 5px;
+    }
+
+    .topico-quemSouEu {
+        padding: 14px;
+        font-size: 30px;
+    }
+
+    .topico-TCC {
+        padding: 27px;
+        font-size: 22px;
+    }
+
+    .topico-questoesTrabalhadas {
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .titulo-servicos {
+        padding: 23px;
+        font-size: 30px;
+    }
+
+    .titulo-terapia {
+        padding: 23px;
+        font-size: 30px;
+    }
+
+    .titulo-duvidas {
+        padding: 25px;
+        font-size: 30px;
     }
 }

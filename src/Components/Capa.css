@@ -1,0 +1,262 @@
+.container-capa {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    align-self: center;
+}
+
+.logo {
+    width: 350px;
+    margin-left: 40px;
+}
+
+.informacoes-capa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-left: 60px;
+    color: var(--amarelo);
+}
+
+.informacoes-capa h1 {
+    font-size: 40px
+}
+
+.informacoes-capa h2 {
+    font-size: 30px;
+    width: 50%;
+    padding: 20px;
+    background-image: url('../../public/tarja-capa.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+@media (min-width:270px) and (max-width:359px) {
+    .container-capa {
+        margin-top: 20px;
+    }
+
+    .logo {
+        width: 90px;
+        margin-left: 5px;
+    }
+
+    .informacoes-capa {
+        gap: 0px;
+        margin-left: 5px;
+    }
+
+    .informacoes-capa h1 {
+        padding-top: 15px;
+        font-size: 9px
+    }
+
+    .informacoes-capa h2 {
+        font-size: 6px;
+        padding: 15px 40px;
+        margin-right: 5px
+    }
+}
+
+@media (min-width:360px) and (max-width:420px) {
+
+    .container-capa {
+        margin-top: 15px;
+    }
+
+    .logo {
+        width: 100px;
+        margin-left: 30px;
+    }
+
+    .informacoes-capa {
+        gap: 0px;
+        margin-left: 0px;
+    }
+
+    .informacoes-capa h1 {
+        font-size: 13px;
+        padding: 10px 10px 0 0;
+    }
+
+    .informacoes-capa h2 {
+        font-size: 8px;
+        width: 50%;
+        padding: 10px 30px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:421px) and (max-width:480px) {
+
+    .container-capa {
+        margin-top: 15px;
+    }
+
+    .logo {
+        width: 120px;
+        margin-left: 30px;
+    }
+
+    .informacoes-capa {
+        gap: 0px;
+        margin-left: 10px;
+    }
+
+    .informacoes-capa h1 {
+        font-size: 14px;
+        padding: 10px 10px 0 0;
+    }
+
+    .informacoes-capa h2 {
+        font-size: 9px;
+        width: 50%;
+        padding: 10px 25px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:481px) and (max-width:620px) {
+    .container-capa {
+        margin-top: 20px;
+    }
+
+    .logo {
+        width: 130px;
+        margin-left: 30px;
+    }
+
+    .informacoes-capa {
+        gap: 0px;
+        margin-left: 10px;
+    }
+
+    .informacoes-capa h1 {
+        font-size: 15px
+    }
+
+    .informacoes-capa h2 {
+        font-size: 9px;
+        width: 50%;
+        padding: 10px 25px;
+        margin-top: 10px;
+
+    }
+}
+
+@media (min-width:621px) and (max-width:768px) {
+    .container-capa {
+        margin-top: 30px;
+    }
+
+    .logo {
+        width: 140px;
+        margin-left: 30px;
+    }
+
+    .informacoes-capa {
+        gap: 5px;
+        margin-left: 10px;
+    }
+
+    .informacoes-capa h1 {
+        font-size: 15px;
+        padding-right: 11px;
+    }
+
+    .informacoes-capa h2 {
+        font-size: 12px;
+        width: 55%;
+        padding: 10px 30px;
+        margin-top: 10px;
+
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .container-capa {
+        margin-top: 40px;
+    }
+
+    .logo {
+        width: 175px;
+        margin-left: 35px;
+    }
+
+    .informacoes-capa {
+        gap: 20px;
+        margin-left: 10px;
+    }
+
+    .informacoes-capa h1 {
+        font-size: 18px;
+        padding-right: 10px;
+    }
+
+    .informacoes-capa h2 {
+        font-size: 14px;
+        width: 60%;
+        padding: 14px 30px;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .container-capa {
+        margin-top: 50px;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 220px;
+        margin-left: 60px;
+    }
+
+    .informacoes-capa {
+        gap: 20px;
+        margin-left: 10px;
+    }
+
+    .informacoes-capa h1 {
+        font-size: 20px;
+        padding-right: 10px;
+    }
+
+    .informacoes-capa h2 {
+        font-size: 15px;
+        width: 60%;
+        padding: 20px 25px;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+    .container-capa {
+        margin-top: 40px;
+    }
+
+    .logo {
+        width: 250px;
+        margin-left: 30px;
+    }
+
+    .informacoes-capa {
+        gap: 20px;
+        margin-left: 10px;
+    }
+
+    .informacoes-capa h1 {
+        font-size: 22px;
+        padding-right: 10px;
+    }
+
+    .informacoes-capa h2 {
+        font-size: 16px;
+        width: 60%;
+        padding: 30px;
+    }
+}

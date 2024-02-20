@@ -41,6 +41,8 @@
     scroll-behavior: smooth;
 }
 
+
+
 .conteudo-carrossel::-webkit-scrollbar {
     display: none;
 }
@@ -53,7 +55,7 @@
     height: 100%;
 }
 
-.seta{
+.seta {
     width: 50px;
 }
 
@@ -63,7 +65,7 @@
 }
 
 
-.seta-esquerda{
+.seta-esquerda {
     transform: rotate(180deg);
 }
 
@@ -71,40 +73,120 @@ button {
     outline: none !important;
 }
 
-.container-buttons-direita{
+.container-buttons-direita {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
 }
-.container-buttons-esquerda{
+
+.container-buttons-esquerda {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: end;
 }
 
-.folhas-direita{
+.folhas-direita-duvidas {
     margin-top: 25px;
     width: 130px;
     height: 130px;
     transform: rotate(180deg);
 }
-.folhas-esquerda{
+
+.folhas-esquerda-duvidas {
     margin-bottom: 25px;
     width: 130px;
     height: 130px;
 }
 
-@media (min-width:320px) and (max-width:480px){
-    .carrossel-card {
-        margin-top: 15px;
-        padding: 10px;   
+.folhas-direita-questoes {
+    margin-top: 25px;
+    width: 130px;
+    height: 130px;
+    transform: rotate(180deg);
+}
+
+.folhas-esquerda-questoes {
+    margin-bottom: 25px;
+    width: 130px;
+    height: 130px;
+}
+
+
+@media (min-width:270px) and (max-width:359px) {
+    .conteudo-carrossel {
+        padding-left: 0px;
     }
 
-    
+    .conteudo-carrossel-questoes {
+        padding-right: 0px;
+        gap: 20px;
+    }
 
-    
+    .conteudo-carrossel-duvidas {
+        padding-right: 5px;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .carrossel-card {
+        margin-top: 15px;
+        padding: 10px 0;
+    }
+
+    .container-carrossel-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 600px;
+    }
+
+    .container-carrossel-duvidas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 560px;
+    }
+
+    .carrossel-caixaDePergunta {
+        margin-top: 20px;
+        align-self: center;
+        border-radius: 10px;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons-carrossel {
+        visibility: hidden;
+    }
+}
+
+@media (min-width:360px) and (max-width:420px) {
+    .conteudo-carrossel {
+        padding-left: 10px;
+    }
+
+    .conteudo-carrossel-questoes {
+        padding: 0px 20px;
+        gap: 20px;
+    }
+
+    .conteudo-carrossel-duvidas {
+        padding-right: 5px;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .carrossel-card {
+        margin-top: 15px;
+        padding: 10px 0;
+    }
 
     .container-carrossel-card {
         display: flex;
@@ -112,6 +194,58 @@ button {
         align-items: center;
         height: 200px;
         width: 740px;
+    }
+
+    .container-carrossel-duvidas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 700px;
+    }
+
+    .carrossel-caixaDePergunta {
+        margin-top: 20px;
+        align-self: center;
+        border-radius: 10px;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons-carrossel {
+        visibility: hidden;
+    }
+}
+
+@media (min-width:421px) and (max-width:480px) {
+    .conteudo-carrossel {
+        padding-left: 8px;
+    }
+
+    .conteudo-carrossel-questoes {
+        padding: 0px 20px;
+        gap: 20px;
+    }
+
+    .conteudo-carrossel-duvidas {
+        padding-right: 5px;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .carrossel-card {
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .container-carrossel-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 780px;
         overflow: hidden;
     }
 
@@ -119,11 +253,236 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 400px;
-        width:800px;
+        height: 300px;
+        width: 760px;
+    }
+
+    .carrossel-caixaDePergunta {
+        margin-top: 20px;
+        align-self: center;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
     }
 
     .buttons-carrossel {
         visibility: hidden;
+    }
+}
+
+@media (min-width:481px) and (max-width:620px) {
+    .conteudo-carrossel {
+        padding-left: 7px;
+    }
+
+
+    .conteudo-carrossel-questoes {
+        padding: 0px 20px;
+        gap: 20px;
+    }
+
+    .conteudo-carrossel-duvidas {
+        padding-right: 5px;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .carrossel-card {
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .container-carrossel-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 820px;
+        overflow: hidden;
+    }
+
+    .container-carrossel-duvidas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 800px;
+    }
+
+    .carrossel-caixaDePergunta {
+        margin-top: 20px;
+        align-self: center;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons-carrossel {
+        visibility: hidden;
+    }
+}
+
+@media (min-width:621px) and (max-width:768px) {
+    .conteudo-carrossel {
+        padding-left: 7px;
+    }
+
+    .conteudo-carrossel-questoes {
+        padding: 0px 15px;
+        gap: 20px;
+    }
+
+    .conteudo-carrossel-duvidas {
+        padding-right: 5px;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .carrossel-card {
+        margin-top: 15px;
+        padding: 10px 0;
+    }
+
+    .container-carrossel-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 880px;
+        overflow: hidden;
+    }
+
+    .container-carrossel-duvidas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 940px;
+    }
+
+    .carrossel-caixaDePergunta {
+        margin-top: 20px;
+        align-self: center;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons-carrossel {
+        visibility: hidden;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .conteudo-carrossel {
+        padding-left: 7px;
+    }
+
+    .conteudo-carrossel-questoes {
+        padding: 0px 15px;
+        gap: 20px;
+    }
+
+    .conteudo-carrossel-duvidas {
+        padding-right: 5px;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .carrossel-card {
+        margin-top: 15px;
+        padding: 10px 0;
+    }
+
+    .container-carrossel-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        width: 790px;
+        overflow: hidden;
+    }
+
+    .container-carrossel-duvidas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 780px;
+    }
+
+    .carrossel-caixaDePergunta {
+        margin-top: 20px;
+        align-self: center;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons-carrossel {
+        visibility: visible;
+    }
+
+    .seta {
+        width: 30px;
+    }
+
+    .folhas-direita-duvidas {
+        margin-top: 35px;
+        width: 80px;
+        height: 80px;
+        transform: rotate(180deg);
+    }
+
+    .folhas-esquerda-duvidas {
+        margin-bottom: 35px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .folhas-direita-questoes {
+        margin-top: 63px;
+        width: 80px;
+        height: 80px;
+        transform: rotate(180deg);
+    }
+
+    .folhas-esquerda-questoes {
+        margin-bottom: 63px;
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .container-carrossel-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        width: 1000px;
+        overflow: hidden;
+    }
+
+    .folhas-direita-questoes {
+        margin-top: 22px;
+        width: 105px;
+        height: 105px;
+        transform: rotate(180deg);
+    }
+
+    .folhas-esquerda-questoes {
+        margin-bottom: 22px;
+        width: 105px;
+        height: 105px;
     }
 }

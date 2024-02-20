@@ -1,27 +1,14 @@
-.home{
+.home {
     background-color: var(--marrom);
     height: 100%;
     width: 100vw;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     flex-direction: column;
     padding-bottom: 20px;
+    overflow-x: hidden;
 }
 
-.foto-capa{
-    width: 100%;
-}
-
-
-.section-1{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--marrom);
-    border-radius:  200px 200px 0px 0px;
-}
-
-.faixa{
+.faixa {
     background-color: #000;
     color: #fff;
     width: 100%;
@@ -35,39 +22,114 @@
     align-items: center;
 }
 
-.faixa::after{
-    content: ""; /* Remova o "url" para usar o conteúdo gerado pelo CSS */
-    background-image: url("estrela.png");
-    background-size: 30px 30px; /* Ajuste o tamanho conforme necessário */
-    display: inline-block; /* Permite ajustar o tamanho com width e height */
-    width: 30px; /* Defina a largura desejada */
-    height: 30px; /* Defina a altura desejada */
-    margin-left: 20px; /* Adicione margem à direita, se necessário */
-}
-.faixa::before{
-    content: ""; /* Remova o "url" para usar o conteúdo gerado pelo CSS */
-    background-image: url("estrela.png");
-    background-size: 30px 30px; /* Ajuste o tamanho conforme necessário */
-    display: inline-block; /* Permite ajustar o tamanho com width e height */
-    width: 30px; /* Defina a largura desejada */
-    height: 30px; /* Defina a altura desejada */
-    margin-right: 20px; /* Adicione margem à direita, se necessário */
+.faixa::after {
+    content: "";
+    background-image: url("../../public/estrela.png");
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
 }
 
+.faixa::before {
+    content: "";
+    background-image: url("../../public/estrela.png");
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
 
 
-@media (min-width:1000px) and (max-width:1280px) {
+@media (min-width:270px) and (max-width:359px) {
+    .faixa {
+        padding: 5px 0;
+        font-size: 10px;
+    }
 
-    .foto-PSIFlavia{
-        width: 150px;
-        height: 100px;
+    .faixa::before {
+        content: "";
+        background-image: url("../../public/estrela.png");
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+
+    .faixa::after {
+        content: "";
+        background-image: url("../../public/estrela.png");
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
     }
 }
 
-
-@media (min-width:320px) and (max-width:480px){
-    .faixa{
+@media (min-width:360px) and (max-width:420px) {
+    .faixa {
         padding: 5px 0;
         font-size: 15px;
+    }
+
+    .faixa::before {
+        content: "";
+        background-image: url("../../public/estrela.png");
+        background-size: 25px 25px;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 20px;
+    }
+
+    .faixa::after {
+        content: "";
+        background-image: url("../../public/estrela.png");
+        background-size: 25px 25px;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-left: 25px;
+    }
+    
+}
+
+@media (min-width:421px) and (max-width:480px) {
+    .faixa {
+        padding: 15px 0;
+        font-size: 18px;
+    }
+}
+
+@media (min-width:481px) and (max-width:620px) {
+    .faixa {
+        padding: 15px 0;
+        font-size: 18px;
+    }
+}
+
+@media (min-width:621px) and (max-width:768px) {
+    .faixa {
+        padding: 15px 0;
+        font-size: 18px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .faixa {
+        padding: 15px 0;
+        font-size: 22px;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .faixa {
+        padding: 15px 0;
+        font-size: 25px;
     }
 }

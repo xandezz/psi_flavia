@@ -1,9 +1,9 @@
-.lista{
+.lista {
     padding: 50px;
-    list-style: none;   
+    list-style: none;
 }
 
-.lista .item{
+.lista .item {
     color: var(--marrom);
     font-weight: bold;
     font-size: 30px;
@@ -12,25 +12,91 @@
     padding: 15px;
     border-radius: 50px;
 }
-.lista .item::before{
-    content: ""; /* Remova o "url" para usar o conteúdo gerado pelo CSS */
-    background-image: url("bola.png");
-    background-size: 15px 15px; /* Ajuste o tamanho conforme necessário */
-    display: inline-block; /* Permite ajustar o tamanho com width e height */
-    width: 15px; /* Defina a largura desejada */
-    height: 15px; /* Defina a altura desejada */
+
+.lista .item::before {
+    content: "";
+    background-image: url("../../public/bola.png");
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
 }
 
-@media (min-width:320px) and (max-width:480px){
-    .lista{
-        padding: 20px;
-        list-style: none;   
-    }
-    .lista .item{
-        font-size: 20px;
+@media (min-width:270px) and (max-width:359px) {
+    .lista {
         padding: 10px;
-        
+        list-style: none;
     }
 
+    .lista .item {
+        font-size: 15px;
+        padding: 10px;
+    }
 }
+
+@media (min-width:360px) and (max-width:420px) {
+    .lista {
+        padding: 20px;
+        list-style: none;
+    }
+
+    .lista .item {
+        font-size: 20px;
+        padding: 8px;
+    }
+}
+
+@media (min-width:421px) and (max-width:480px) {
+    .lista {
+        padding: 20px;
+        list-style: none;
+    }
+
+    .lista .item {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+}
+
+@media (min-width:481px) and (max-width:620px) {
+    .lista {
+        padding: 20px;
+        list-style: none;
+    }
+
+    .lista .item {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+}
+
+@media (min-width:621px) and (max-width:768px) {
+    .lista {
+        padding: 20px;
+        list-style: none;
+    }
+
+    .lista .item {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .lista {
+        padding: 20px;
+        list-style: none;
+    }
+
+    .lista .item {
+        font-size: 25px;
+        padding: 15px;
+
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {}

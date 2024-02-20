@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+
+
+
+.texto-QuemSouEu {
+    padding-top: 50px;
+    background-image: url('../../public/linhas-quemSouEu.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.foto-psiflavia {
+    width: 450px;
+    height: 500px;
+    margin-right: 50px;
+}
+
+.container-QuemSouEu {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: var(--amarelo);
+}
+
+.quemsoueu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.informacoes-QuemSouEu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-QuemSouEu {
+    font-family: "Waterfall", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+}
+
+
+@media (min-width:270px) and (max-width:359px) {
+    .texto-QuemSouEu {
+        padding-top: 50px;
+    }
+
+    .foto-psiflavia {
+        width: 100px;
+        height: 105px;
+        margin-right: 10px;
+    }
+
+    .container-QuemSouEu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0px;
+        color: var(--amarelo);
+    }
+
+    .quemsoueu {
+        margin-bottom: 20px;
+
+    }
+
+    .nome-QuemSouEu {
+        font-size: 28.5px;
+    }
+
+    .crp-QuemSouEu {
+        font-size: 6.5px;
+    }
+}
+
+@media (min-width:360px) and (max-width:420px) {
+    .texto-QuemSouEu {
+        padding-top: 30px;
+    }
+
+    .foto-psiflavia {
+        width: 115px;
+        height: 120px;
+        margin-right: 10px;
+    }
+
+    .container-QuemSouEu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0px;
+        color: var(--amarelo);
+    }
+
+    .quemsoueu {
+        margin-bottom: 20px;
+    }
+
+    .nome-QuemSouEu {
+        font-size: 50px;
+    }
+
+    .crp-QuemSouEu {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:421px) and (max-width:480px) {
+    .texto-QuemSouEu {
+        padding-top:30px;
+    }
+
+    .foto-psiflavia {
+        width: 135px;
+        height: 140px;
+        margin-right: 10px;
+    }
+
+    .container-QuemSouEu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        color: var(--amarelo);
+    }
+
+    .quemsoueu {
+        margin-bottom: 20px;
+    }
+
+    .nome-QuemSouEu {
+        font-size: 50px;
+    }
+
+    .crp-QuemSouEu {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:481px) and (max-width:620px) {
+    .texto-QuemSouEu {
+        padding-top: 50px;
+    }
+
+    .foto-psiflavia {
+        width: 150px;
+        height: 155px;
+        margin-right: 10px;
+    }
+
+    .container-QuemSouEu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        color: var(--amarelo);
+    }
+
+    .quemsoueu {
+        margin-bottom: 20px;
+    }
+
+    .nome-QuemSouEu {
+        font-size: 70px;
+    }
+
+    .crp-QuemSouEu {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:621px) and (max-width:768px) {
+    .texto-QuemSouEu {
+        padding-top: 50px;
+    }
+
+    .foto-psiflavia {
+        width: 200px;
+        height: 210px;
+        margin-right: 10px;
+    }
+
+    .container-QuemSouEu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        color: var(--amarelo);
+    }
+
+    .quemsoueu {
+        margin-bottom: 20px;
+    }
+
+    .nome-QuemSouEu {
+        font-size: 80px;
+    }
+
+    .crp-QuemSouEu {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .texto-QuemSouEu {
+        padding-top: 50px;
+    }
+
+    .foto-psiflavia {
+        width: 220px;
+        height: 230px;
+        margin-right: 10px;
+    }
+
+    .container-QuemSouEu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        color: var(--amarelo);
+    }
+
+    .quemsoueu {
+        margin-bottom: 20px;
+    }
+
+    .nome-QuemSouEu {
+        font-size: 80px;
+    }
+
+    .crp-QuemSouEu {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .texto-QuemSouEu {
+        padding-top: 50px;
+    }
+
+    .foto-psiflavia {
+        width: 240px;
+        height: 255px;
+        margin-right: 10px;
+    }
+
+    .container-QuemSouEu {
+        gap: 15px;
+    }
+
+    .quemsoueu {
+        margin-bottom: 20px;
+    }
+
+    .nome-QuemSouEu {
+        font-size: 100px;
+    }
+
+    .crp-QuemSouEu {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+    .texto-QuemSouEu {
+        padding-top: 50px;
+    }
+
+    .foto-psiflavia {
+        width: 240px;
+        height: 255px;
+        margin-right: 10px;
+    }
+
+    .container-QuemSouEu {
+        gap: 15px;
+    }
+
+    .quemsoueu {
+        margin-bottom: 20px;
+    }
+
+    .nome-QuemSouEu {
+        font-size: 100px;
+    }
+
+    .crp-QuemSouEu {
+        font-size: 18px;
+    }
+}
