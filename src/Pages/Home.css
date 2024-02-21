@@ -234,6 +234,7 @@
         padding: 15px 0;
         font-size: 25px;
     }
+
     .faixa::after {
         content: "";
         background-image: url("../../public/seta-faixa.png");
@@ -255,6 +256,6 @@
         height: 30px;
         padding-right: 10px;
         margin-right: 10px;
-
     }
+    
 }
