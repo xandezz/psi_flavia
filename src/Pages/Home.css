@@ -25,10 +25,10 @@
 .faixa::after {
     content: "";
     background-image: url("../../public/seta-faixa.png");
-    background-size: 60px 40px;
+    background-size: 55px 35px;
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     padding-left: 20px;
     margin-left: 25px;
     transform: rotate(180deg);
@@ -37,10 +37,10 @@
 .faixa::before {
     content: "";
     background-image: url("../../public/seta-faixa.png");
-    background-size: 60px 40px;
+    background-size: 55px 35px;
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     padding-right: 20px;
     margin-right: 25px;
 
@@ -85,22 +85,22 @@
     .faixa::before {
         content: "";
         background-image: url("../../public/seta-faixa.png");
-        background-size: 35px 20px;
+        background-size: 25px 15px;
         display: inline-block;
-        width: 20px;
-        height: 20px;
-        padding-right: 15px;
+        width: 15px;
+        height: 15px;
+        padding-right: 10px;
         margin-right: 10px;
     }
 
     .faixa::after {
         content: "";
         background-image: url("../../public/seta-faixa.png");
-        background-size: 35px 20px;
+        background-size: 25px 15px;
         display: inline-block;
-        width: 20px;
-        height: 20px;
-        padding-left: 15px;
+        width: 15px;
+        height: 15px;
+        padding-left: 10px;
         margin-left: 10px;
     }
 
@@ -115,9 +115,9 @@
     .faixa::after {
         content: "";
         background-image: url("../../public/seta-faixa.png");
-        background-size: 40px 20px;
+        background-size: 35px 20px;
         display: inline-block;
-        width: 30px;
+        width: 25px;
         height: 20px;
         padding-left: 10px;
         margin-left: 10px;
@@ -127,9 +127,9 @@
     .faixa::before {
         content: "";
         background-image: url("../../public/seta-faixa.png");
-        background-size: 40px 20px;
+        background-size: 35px 20px;
         display: inline-block;
-        width: 30px;
+        width: 25px;
         height: 20px;
         padding-right: 10px;
         margin-right: 10px;
@@ -173,6 +173,7 @@
         padding: 15px 0;
         font-size: 18px;
     }
+
     .faixa::after {
         content: "";
         background-image: url("../../public/seta-faixa.png");
@@ -181,7 +182,7 @@
         width: 30px;
         height: 20px;
         padding-left: 10px;
-        margin-left: 10px;
+        margin-left: 20px;
         transform: rotate(180deg);
     }
 
@@ -193,7 +194,7 @@
         width: 30px;
         height: 20px;
         padding-right: 10px;
-        margin-right: 10px;
+        margin-right: 20px;
 
     }
 }
@@ -204,6 +205,7 @@
         font-size: 22px;
         margin-top: 25px;
     }
+
     .faixa::after {
         content: "";
         background-image: url("../../public/seta-faixa.png");
@@ -212,7 +214,7 @@
         width: 30px;
         height: 20px;
         padding-left: 10px;
-        margin-left: 10px;
+        margin-left: 20px;
         transform: rotate(180deg);
     }
 
@@ -224,7 +226,7 @@
         width: 30px;
         height: 20px;
         padding-right: 10px;
-        margin-right: 10px;
+        margin-right: 20px;
 
     }
 }
@@ -238,24 +240,24 @@
     .faixa::after {
         content: "";
         background-image: url("../../public/seta-faixa.png");
-        background-size: 50px 30px;
+        background-size: 45px 25px;
         display: inline-block;
-        width: 40px;
-        height: 30px;
+        width: 35px;
+        height: 25px;
         padding-left: 10px;
-        margin-left: 10px;
+        margin-left: 25px;
         transform: rotate(180deg);
     }
 
     .faixa::before {
         content: "";
         background-image: url("../../public/seta-faixa.png");
-        background-size: 50px 30px;
+        background-size: 45px 25px;
         display: inline-block;
-        width: 40px;
-        height: 30px;
+        width: 35px;
+        height: 25px;
         padding-right: 10px;
-        margin-right: 10px;
+        margin-right: 25px;
     }
-    
+
 }
