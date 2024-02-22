@@ -534,6 +534,11 @@ button {
         width: 1000px;
         overflow: hidden;
     }
+    
+    .conteudo-carrossel-questoes {
+        padding: 0px 15px;
+        gap: 20px;
+    }
 
     .folhas-direita-questoes {
         margin-top: 22px;
