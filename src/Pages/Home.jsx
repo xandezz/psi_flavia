@@ -112,7 +112,7 @@ const Home = () => {
       />
 
       <div className="faixa">
-        <a href="https://wa.me/5584994931379?text=Ol%C3%A1%2C+gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Fl%C3%A1via+Luiza%21" target="_blank" style={{ color: "#ffffff" }}>AGENDAR MINHA CONSULTA</a>
+        <a href="https://wa.me/5584994931379?text=Ol%C3%A1%2C+gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Fl%C3%A1via+Luiza%21" target='_blank' style={{ color: "#ffffff" }}>AGENDAR MINHA CONSULTA</a>
       </div>
 
       <Topico
@@ -140,7 +140,7 @@ const Home = () => {
         classNameFolhasEsquerda={"folhas-esquerda-duvidas"}
       />
       <div className="faixa">
-        <a href="https://wa.me/5584994931379?text=Ol%C3%A1%2C+gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Fl%C3%A1via+Luiza%21" target="_blank" style={{ color: "#ffffff" }}>AGENDAR MINHA CONSULTA</a>
+      <a href="https://wa.me/5584994931379?text=Ol%C3%A1%2C+gostaria+de+marcar+uma+consulta+com+a+Psic%C3%B3loga+Fl%C3%A1via+Luiza%21" target="_blank"style={{ color: "#ffffff" } }>AGENDAR MINHA CONSULTA</a>
       </div>
     </div>
   )
