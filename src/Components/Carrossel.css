@@ -118,8 +118,7 @@ button {
 .bolinhas-indicadoras {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    background-color: var(--verde-principal);
+    margin: 5px 0px 10px;
     padding: 5px;
     border-radius: 20px;
 }
@@ -128,12 +127,12 @@ button {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #ccc;
+    background-color: #000000;
     margin: 0 5px;
 }
 
 .bolinha-indicadora.ativa {
-    background-color: #a34c0e;
+    background-color: var(--verde-principal);
     /* Cor ativa */
 }
 
@@ -193,7 +192,7 @@ button {
         margin-top: 0px;
         padding: 3px;
     }
-    
+
     .bolinha-indicadora {
         width: 6px;
         height: 6px;
@@ -250,12 +249,12 @@ button {
     .buttons-carrossel {
         visibility: hidden;
     }
-    
+
     .bolinhas-indicadoras {
         margin-top: 0px;
         padding: 3px;
     }
-    
+
     .bolinha-indicadora {
         width: 7px;
         height: 7px;
@@ -313,11 +312,12 @@ button {
     .buttons-carrossel {
         visibility: hidden;
     }
+
     .bolinhas-indicadoras {
         margin-top: 0px;
         padding: 3px;
     }
-    
+
     .bolinha-indicadora {
         width: 8px;
         height: 8px;
@@ -376,11 +376,12 @@ button {
     .buttons-carrossel {
         visibility: hidden;
     }
+
     .bolinhas-indicadoras {
         margin-top: 0px;
         padding: 3px;
     }
-    
+
     .bolinha-indicadora {
         width: 9px;
         height: 9px;
