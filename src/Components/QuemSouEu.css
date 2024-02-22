@@ -46,6 +46,10 @@
     font-size: 150px;
 }
 
+.crp-QuemSouEu {
+    font-size: 25px;
+}
+
 
 @media (min-width:270px) and (max-width:359px) {
     .texto-QuemSouEu {
@@ -104,7 +108,7 @@
     }
 
     .nome-QuemSouEu {
-        font-size: 50px;
+        font-size: 49px;
     }
 
     .crp-QuemSouEu {
@@ -114,7 +118,7 @@
 
 @media (min-width:421px) and (max-width:480px) {
     .texto-QuemSouEu {
-        padding-top:30px;
+        padding-top: 30px;
     }
 
     .foto-psiflavia {

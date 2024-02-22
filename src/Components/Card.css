@@ -13,7 +13,7 @@
 }
 
 .titulo-card {
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
@@ -32,26 +32,17 @@
 @media (min-width:270px) and (max-width:359px) {
     .card {
         width: 155px;
-        font-size: 6.7px;
+        font-size: 6.5px;
         margin: 0;
     }
 
     .titulo-card {
-        font-size: 9px;
-        font-weight: bold;
+        font-size: 3px;
         margin-bottom: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: end;
     }
 
     .descricao-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 87px;
-        text-align: justify;
-        color: #a34c0e;
+        height: 84px;
         margin-bottom: 0px;
     }
 }
@@ -64,21 +55,12 @@
     }
 
     .titulo-card {
-        font-size: 15px;
-        font-weight: bold;
+        font-size: 5px;
         margin-bottom: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: end;
     }
 
     .descricao-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 88px;
-        text-align: justify;
-        color: #a34c0e;
         margin-bottom: 2px;
     }
 }
@@ -91,22 +73,13 @@
     }
 
     .titulo-card {
-        font-size: 20px;
-        font-weight: bold;
+        font-size: 5.5px;
         margin-bottom: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: end;
     }
 
     .descricao-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 90px;
-        text-align: justify;
-        color: #a34c0e;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         font-size: 11px;
     }
 }
@@ -119,20 +92,11 @@
     }
 
     .titulo-card {
-        font-size: 20px;
-        font-weight: bold;
+        font-size: 8px;
         margin-bottom: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: end;
     }
 
     .descricao-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-        color: #a34c0e;
         margin-bottom: 5px;
         font-size: 11px;
     }
@@ -142,26 +106,19 @@
     .card {
         width: 400px;
         font-size: 10px;
-        margin: 0;
+        margin: 0px;
+        padding-top: 70px;
     }
 
     .titulo-card {
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: end;
+        font-size: 9px;
+        margin-bottom: 5px;
     }
 
     .descricao-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-        color: #a34c0e;
-        margin-bottom: 5px;
-        font-size: 11px;
+        margin-bottom: 0px;
+        font-size: 14px;
+
     }
 }
 
@@ -170,24 +127,16 @@
         width: 420px;
         height: 200px;
         margin: 0;
+        padding-top: 70px;
     }
 
     .titulo-card {
         margin-top: 5px;
-        font-size: 18px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: end;
+        font-size: 10px;
     }
 
     .descricao-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-        color: #a34c0e;
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
@@ -199,4 +148,7 @@
         margin: 0;
     }
 
+    .titulo-card {
+        font-size: 13px;
+    }
 }

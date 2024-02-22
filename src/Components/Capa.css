@@ -57,7 +57,7 @@
     }
 
     .informacoes-capa h2 {
-        font-size: 6px;
+        font-size: 6.5px;
         padding: 15px 40px;
         margin-right: 5px
     }
@@ -85,10 +85,9 @@
     }
 
     .informacoes-capa h2 {
-        font-size: 8px;
+        font-size: 7.5px;
         width: 50%;
-        padding: 10px 30px;
-        margin-top: 10px;
+        padding: 10px 32px;
     }
 }
 
@@ -114,10 +113,9 @@
     }
 
     .informacoes-capa h2 {
-        font-size: 9px;
+        font-size: 8.5px;
         width: 50%;
-        padding: 10px 25px;
-        margin-top: 10px;
+        padding: 10px 35px;
     }
 }
 

@@ -1,10 +1,10 @@
 import "./CaixaDePergunta.css"
 
-const CaixaDePergunta = ({titulo, descricao}) => {
+const CaixaDePergunta = ({ titulo, descricao }) => {
   return (
     <div className="container-CaixaDePergunta">
-        <div className="pergunta">{titulo}</div>
-        <div className="resposta">{descricao}</div>
+      <h1 className="pergunta">{titulo}</h1>
+      <div className="resposta">{descricao}</div>
     </div>
   )
 }

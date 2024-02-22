@@ -17,8 +17,7 @@ const Carrossel = ({
   const handleScroll = () => {
     const card = carrossel.current.children[0];
     const cardWidth = card.offsetWidth;
-    const scrollAmount = cardWidth + 20; // Adiciona 20 para lidar com margens e espaçamento
-
+    const scrollAmount = cardWidth + 20;
     const newIndice = Math.round(carrossel.current.scrollLeft / scrollAmount);
     setIndiceAtual(newIndice);
   };
@@ -53,13 +52,13 @@ const Carrossel = ({
 
   return (
     <div className={classe}>
-      <h1
+      <p
         className={`titulo-topico ${classNameTitulo}`}
         data-aos="fade-down"
         data-aos-duration="800"
       >
         {titulo}
-      </h1>
+      </p>
       <div className={classNameContainer}>
         <button
           className="buttons-carrossel container-buttons-esquerda"

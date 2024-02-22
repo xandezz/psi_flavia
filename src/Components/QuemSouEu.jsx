@@ -2,12 +2,12 @@ import "./QuemSouEu.css"
 
 const QuemSouEu = () => {
     return (
-        <div className='quemsoueu'>
+        <article className='quemsoueu'>
             <div className='container-QuemSouEu'>
                 <img src="foto.png" alt="Foto da Psicologa Flávia Luiza" className='foto-psiflavia' />
                 <div className="informacoes-QuemSouEu">
-                    <h1 className="nome-QuemSouEu">Flávia Luiza</h1>
-                    <h3 className="crp-QuemSouEu">PSICÓLOGA | CRP 17/7097</h3>
+                    <h3 className="nome-QuemSouEu">Flávia Luiza</h3>
+                    <h2 className="crp-QuemSouEu">PSICÓLOGA | CRP 17/7097</h2>
                 </div>
             </div>
             <div className='texto-QuemSouEu'>
@@ -20,7 +20,7 @@ const QuemSouEu = () => {
 
                 <p>Iremos trabalhar juntos para entender os problemas, encontrar maneiras práticas de resolvê-los e criar habilidades para saber lidar com situações dificeis.</p>
             </div>
-        </div>
+        </article>
     )
 }
 
